@@ -61,7 +61,7 @@ nav ul li a:hover {
 
 img.logo-main {
   width: 100%;
-  max-width: 800px;
+  max-width: 50rem;
 }
 
 .content-title {
@@ -95,18 +95,28 @@ img.logo-main {
 footer {
   justify-content: space-between;
   width: 100%;
-  min-height: 16rem;
+  max-width: 78.375rem;
+  min-height: 6rem;
+  margin: 0 auto;
+  padding: 1rem 0;
   display: flex;
-}
-
-footer img {
-  width: 100%;
-  max-width: 100px;
 }
 
 footer > div {
   column-gap: 1rem;
   display: flex;
+}
+
+#chas-logo {
+  width: 7.75rem;
+}
+
+#construction-logo {
+  width: 10.625rem;
+}
+
+#gallant-logo {
+  width: 17rem;
 }
 
 /*# sourceMappingURL=index.d046a61c.css.map */

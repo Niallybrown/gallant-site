@@ -63,7 +63,7 @@ nav ul li a:hover {
 
 img.logo-main {
   width: 100%;
-  max-width: 800px;
+  max-width: 50rem;
 }
 
 .content-title {
@@ -98,15 +98,25 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  min-height: 16rem;
-}
-
-footer img {
-  width: 100%;
-  max-width: 100px;
+  min-height: 6rem;
+  max-width: 78.375rem;
+  margin: 0 auto;
+  padding: 1rem 0;
 }
 
 footer > div {
   display: flex;
   column-gap: 1rem;
+}
+
+#chas-logo {
+  width: 7.75rem;
+}
+
+#construction-logo {
+  width: 10.625rem;
+}
+
+#gallant-logo {
+  width: 17rem;
 }
