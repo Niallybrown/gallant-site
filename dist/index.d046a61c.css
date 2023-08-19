@@ -28,11 +28,13 @@ body {
 }
 
 header {
+  background: #fff;
   width: 100%;
 }
 
 nav {
-  background: #fff;
+  max-width: 63rem;
+  margin: 0 auto;
   padding: 2rem 1rem 1rem;
 }
 
@@ -62,24 +64,38 @@ img.logo-main {
   max-width: 800px;
 }
 
+.content-title {
+  font-size: 3.125rem;
+}
+
 .content-grid {
+  grid-column-gap: 3.75rem;
   grid-template-columns: 2fr 1fr;
+  max-width: 71.1875rem;
   display: grid;
 }
 
 .content-columns {
+  grid-column-gap: 3.75rem;
   grid-template-columns: 1fr 1fr;
   display: grid;
 }
 
 .content-lead {
   margin-top: 0;
-  font-size: 24px;
+  font-size: 1.6875rem;
+  line-height: 2.6875rem;
+}
+
+.content-columns p {
+  font-size: .9375rem;
+  line-height: 1.5625rem;
 }
 
 footer {
   justify-content: space-between;
   width: 100%;
+  min-height: 16rem;
   display: flex;
 }
 
