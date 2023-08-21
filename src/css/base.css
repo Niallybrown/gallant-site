@@ -35,8 +35,8 @@ header {
 }
 
 nav {
-  padding: 2rem 1rem 1rem;
-  max-width: 63rem;
+  padding: 2rem 0 1rem;
+  max-width: 71.1875rem;
   margin: 0 auto;
 }
 
@@ -68,6 +68,7 @@ img.logo-main {
 
 .content-title {
   font-size: 3.125rem;
+  max-width: 71.1875rem;
 }
 
 .content-grid {
@@ -99,7 +100,7 @@ footer {
   display: flex;
   justify-content: space-between;
   min-height: 6rem;
-  max-width: 78.375rem;
+  max-width: 71.1875rem;
   margin: 0 auto;
   padding: 1rem 0;
 }
@@ -119,4 +120,46 @@ footer > div {
 
 #gallant-logo {
   width: 17rem;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .page-wrapper, .content-grid, .content-columns {
+    display: block;
+  }
+
+  .content-wrapper, footer {
+    padding: 0 2rem;
+  }
+  nav {
+    padding: 2rem 2rem 1rem;
+  }
+
+  .content-grid, .content-title, .page-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content-wrapper img {
+    margin: 2rem auto 2rem;
+    max-width: 12.5rem;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  nav {
+    /* display: none; */
+  }
+}
+
+@media screen and (max-height: 880px) {
+  .page-wrapper, .content-grid, .content-columns {
+    display: block;
+  }
+
+  .content-grid, .content-title, .page-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

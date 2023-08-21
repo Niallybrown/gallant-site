@@ -33,9 +33,9 @@ header {
 }
 
 nav {
-  max-width: 63rem;
+  max-width: 71.1875rem;
   margin: 0 auto;
-  padding: 2rem 1rem 1rem;
+  padding: 2rem 0 1rem;
 }
 
 nav ul {
@@ -65,6 +65,7 @@ img.logo-main {
 }
 
 .content-title {
+  max-width: 71.1875rem;
   font-size: 3.125rem;
 }
 
@@ -95,7 +96,7 @@ img.logo-main {
 footer {
   justify-content: space-between;
   width: 100%;
-  max-width: 78.375rem;
+  max-width: 71.1875rem;
   min-height: 6rem;
   margin: 0 auto;
   padding: 1rem 0;
@@ -117,6 +118,42 @@ footer > div {
 
 #gallant-logo {
   width: 17rem;
+}
+
+@media screen and (width <= 1279px) {
+  .page-wrapper, .content-grid, .content-columns {
+    display: block;
+  }
+
+  .content-wrapper, footer {
+    padding: 0 2rem;
+  }
+
+  nav {
+    padding: 2rem 2rem 1rem;
+  }
+
+  .content-grid, .content-title, .page-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content-wrapper img {
+    max-width: 12.5rem;
+    margin: 2rem auto;
+    display: block;
+  }
+}
+
+@media screen and (height <= 880px) {
+  .page-wrapper, .content-grid, .content-columns {
+    display: block;
+  }
+
+  .content-grid, .content-title, .page-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /*# sourceMappingURL=index.d046a61c.css.map */
