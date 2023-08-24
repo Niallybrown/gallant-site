@@ -83,36 +83,47 @@
         </nav>
       </header>
       <div id="content-wrapper">
-        <h1 class="content-title">About</h1>
-        <div class="content-grid">
+        <h1 class="content-title">Contact</h1>
+        <div class="content-grid contact">
           <div>
             <p class="content-lead">
-              Gallant Brickwork has established itself as a leading brickwork
-              subcontractor within the South East. We have successfully
-              completed high quality and bespoke projects for our core clients,
-              enabling us to enjoy continued growth and expansion.
+              Get in touch with our team
             </p>
-            <div class="content-columns">
-              <p>
-                Gallant Brickwork has established itself as a leading brickwork
-                subcontractor within the South East. We have successfully
-                completed high quality and bespoke projects for our core
-                clients, enabling us to enjoy continued growth and expansion.<br /><br />
-                We continue to rely on our skilled craftsmen to deliver
-                uncompromised workmanship, under our growing experienced
-                management team.
-              </p>
-              <p>
-                Offering a large variety of brickwork services over multiple
-                sectors. We continue to utilise our knowledge to help deliver
-                flagship schemes across the South East and London.<br /><br />
-                We continue to focus on improving and expanding our approach,
-                mainaining continued sucess and growth.
-              </p>
-            </div>
+            <p>
+              Ask us a question or make an enquiry by simply filling out our online form. A member of our team will be in contact shortly
+            </p>
+            <h2>+44 7876 116787</h2>
+            <a href="mailto:info@gallantbrickwork.co.uk">info@gallantbrickwork.co.uk</a>
+            <p>Gallant Brickwork Ltd, Oaks Cottage, Hersham Farm Business Park, Longcross Rd, Chertsey, KT16 0DN.</p>
           </div>
           <div>
-            <img style="width: 100%" src="./img/about.png" />
+            <form
+              id="contact-form"
+              action="https://formspree.io/f/mwkjzvby"
+              method="POST"
+            >
+              <div class="singlefield">
+                <label>
+                  <span>Name:</span>
+                  <input ptype="email" name="email">
+                </label>
+              </div>
+              <div class="multifield">
+                <label>
+                  <span>Email Address:</span>
+                  <input ptype="email" name="email">
+                </label>
+                <label>
+                  <span>Telephone:</span>
+                  <input ptype="email" name="email">
+                </label>
+            </div>
+              <div id="message-field">
+                <span class="label-span">Your enquiry:</span>
+                <textarea name="message"></textarea>
+                <button id="btn-submit" type="submit">Send</button>
+              <div>
+          </form>
           </div>
         </div>
       </div>
